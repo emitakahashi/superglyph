@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8"> 
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="This is the online syllabus for the Yale Spring 21 course On Gathering by Mindy Seu">
     <meta name="description" content="Variable Type Workshop by Emi Takahashi">
     <meta property="og:url" content="">
-    <meta property="og:title" content="On Gathering">
-    <meta property="og:description" content="This is the online syllabus for the Yale Spring 21 course On Gathering by Mindy Seu">
+    <meta property="og:title" content="Superglyph Workshop">
     <meta property="og:description" content="TVariable Type Workshop by Emi Takahashi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -59,6 +57,14 @@
                     </div>
                     <div class="range"><button>Axe1</button> <input type="range" id="text-weight" min="100" max="900" value="400" step="1"> <button id="text-weight-value" class="value">400</button>
                     </div>
+
+        <script type="text/javascript">function textWghtRange() {
+            document.getElementById("text-wght-range").addEventListener("input", function() {
+            document.getElementById("text-wght").style.setProperty(`--${this.id}`, this.value);
+            document.getElementById("text-wght-range-value").innerHTML = this.value})
+                }</script> 
+
+
                 </div>
 
 
