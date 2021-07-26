@@ -6,6 +6,13 @@
   src:url("../Fonts/5310067/a59c86da-34b7-4530-94e1-4ecbc5a29fb1.woff2") format("woff2"),url("Fonts/5310067/f27a5cd7-0400-46f7-9a18-c1ebddd268e4.woff") format("woff");
 }
 
+
+@font-face {
+  font-family: 'Roboto VF';
+  src: url('fonts/Roboto-VF.woff2') format('woff2-variations');
+  font-weight: 100 900;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +26,57 @@ p,
   font-size: 14px;
   font-style: normal;
   line-height: 1.1;
+}
+
+
+.demo-text {
+    font-family: "Roboto VF";
+    font-size: 7vw;
+    color: black;
+    user-select: none;
+    cursor: pointer;
+    font-weight: var(--text-weight);
+    font-weight: 400;
+}
+
+.embed {
+    font-family: "Roboto VF", sans-serif;
+    background-color: #f0f4f6;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.embed button {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    font-family: "Roboto VF", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    padding: 4px 6px;
+    background-color: #cecece;
+    border-radius: 6px;
+    color: black;
+    text-align: center;
+    user-select: none;
+}
+
+
+.embed .range {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.embed button.value {
+    background-color: #00e7ff;
+    min-width: 38px;
 }
 
 .container {
@@ -40,7 +98,6 @@ p,
 
 .left {
   width: 50vw;
-  /* border-left: 1px solid black; */
 }
 
 .right {
@@ -57,8 +114,11 @@ p,
 
 
 
+ /* RIGHT SCROLLBAR */
 
-.right::-webkit-scrollbar {
+ .right:
+
+:-webkit-scrollbar {
         width: 12px;
     }
 
@@ -85,6 +145,41 @@ p,
         width: 12px;
     }
 
+ 
+ /* LEFT SCROLLBAR */
+
+
+
+  .left:
+
+:-webkit-scrollbar {
+        width: 12px;
+    }
+
+    /* Track */
+.left::-webkit-scrollbar-track {
+    border: 1px solid black;
+          border-radius: 6px;
+    }
+
+    /* Handle */
+.left::-webkit-scrollbar-thumb {
+        background: yellow;
+            border: 1px solid black;
+        border-radius: 6px;
+    }
+
+    /* Handle on hover */
+.left::-webkit-scrollbar-thumb:hover {
+        background: solid white; 
+    }
+
+
+.left::-webkit-scrollbar {
+        width: 12px;
+    }
+ 
+ /* END SCROLLBAR */
 
 .nav {
   position: fixed;
@@ -116,7 +211,6 @@ a:hover {
   height: auto;
   border-bottom: 1px solid black;
   padding: 10px 10px 10px 10px;
-  border-right: 1px solid black;
 
   display: grid;
   grid-template-columns: 36px auto;
@@ -130,11 +224,6 @@ a:hover {
 #syllabus {
   border-top: 0px;
 }
-
-/* #more {
-  height: 350px;
-} */
-
 
 
 /* COLOR
