@@ -55,6 +55,37 @@ p,
   height: 100vh;
 }
 
+
+
+
+.right::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    /* Track */
+.right::-webkit-scrollbar-track {
+    border: 1px solid black;
+          border-radius: 6px;
+    }
+
+    /* Handle */
+.right::-webkit-scrollbar-thumb {
+        background: yellow;
+            border: 1px solid black;
+        border-radius: 6px;
+    }
+
+    /* Handle on hover */
+.right::-webkit-scrollbar-thumb:hover {
+        background: solid white; 
+    }
+
+
+.right::-webkit-scrollbar {
+        width: 12px;
+    }
+
+
 .nav {
   position: fixed;
   text-align: center;
