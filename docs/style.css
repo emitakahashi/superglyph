@@ -6,11 +6,18 @@
   src:url("../Fonts/5310067/a59c86da-34b7-4530-94e1-4ecbc5a29fb1.woff2") format("woff2"),url("Fonts/5310067/f27a5cd7-0400-46f7-9a18-c1ebddd268e4.woff") format("woff");
 }
 
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotomono/v13/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 @font-face {
-  font-family: 'Roboto VF';
-  src: url('fonts/Roboto-VF.woff2') format('woff2-variations');
-  font-weight: 100 900;
+    font-family: "Squish";
+    src: url("fonts/SquishVF.ttf") format("truetype-variations");
 }
 
 * {
@@ -27,6 +34,25 @@ p,
   font-style: normal;
   line-height: 1.1;
 }
+
+
+
+
+#font {
+  font-family: 'Squish';
+  font-size: 10em;
+  font-variation-settings: "sqush" var(--text-weight).
+}
+
+.demo-text {
+  font-size: 5rem;
+  font-stretch: var(--text-width);
+  font-style: oblique var(--text-slant);
+  font-weight: var(--text-weight);
+  font-variation-settings: "wght" var(--text-weight), "wdth" var(--text-width), "slnt" var(--text-slant);
+  margin: 0;
+}
+
 
 
 .demo-text {
@@ -279,6 +305,12 @@ a:hover {
 .no-class {
   color: lightgray;
 }
+
+
+
+
+
+
 
 
 
