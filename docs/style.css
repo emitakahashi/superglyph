@@ -15,13 +15,15 @@
     src: url("fonts/ReviewMonoRegular.ttf");
 }
 
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 100 900;
-  src: url(https://fonts.gstatic.com/s/robotomono/v13/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+    @font-face {
+      font-family: 'AmstelvarVF';
+      src: url('fonts/AmstelvarVF.ttf') format('truetype-variations');
+      font-weight: 100 900;
+      font-stretch: 75% 100%;
+      font-style: normal;
+      font-display: swap;
+    }
+
 
 
 @font-face {
@@ -50,6 +52,22 @@ img {
   width: relative;
   height:14vh;
 }
+
+
+
+
+.container2 * {
+      font-size: 64px;
+        font-family: AmstelvarVF;
+      font-variation-settings: 'wght' var(--text-axis);
+    }
+
+
+
+.demo2 {
+      --text-axis: 88;
+    }
+
 
 
 #font {
