@@ -15,23 +15,19 @@
     src: url("fonts/ReviewMonoRegular.ttf");
 }
 
-    @font-face {
-      font-family: 'AmstelvarVF';
-      src: url('fonts/AmstelvarVF.ttf') format('truetype-variations');
-      font-weight: 100 900;
-      font-stretch: 75% 100%;
-      font-style: normal;
-      font-display: swap;
-    }
 
+@font-face {
+    font-family: "Kalice";
+    src: url("fonts/Kalice-Regular.otf");
+}
 
 
 @font-face {
-  font-family: 'Squish';
-  font-style: normal;
-  font-weight: 100 900;
-  src: url("fonts/SquishVF.woff2") format("woff2-variations");
-  }
+    font-family: "Necto";
+    src: url("fonts/NectoMono-Regular.otf");
+}
+
+
 
 * {
   margin: 0;
@@ -42,87 +38,24 @@ html,
 body, 
 p,
 .h1 {
-  font-family: ReviewMonoRegular, monospace;
-  font-size: 14px;
+  font-family: Necto, serif;
+  font-size: 16px;
   font-style: normal;
   line-height: 1.1;
 }
 
-img {
-  width: relative;
-  height:14vh;
-}
 
 
-
-
-.container2 * {
-      font-size: 64px;
-        font-family: AmstelvarVF;
-      font-variation-settings: 'wght' var(--text-axis);
-    }
-
-
-
-.demo2 {
-      --text-axis: 88;
-    }
-
-
-
-#font {
-  font-family: 'Squish';
-  font-size: 12em;
-  font-weight: 500;
-}
-
-#fonttwo {
-  font-family: 'Roboto Mono';
-  font-size: 12em;
-  font-weight: 500;
-}
-
-
-#weight-slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 3px;
-  border-radius: 3rem;
-  background: white;
-    border: 1px solid black;
-  outline: 1px;
-}
-
-
-
-#weight-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 1.75rem;
-  height: 1.75rem;
-  border-radius: 50%;
-  background: yellow;
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-
-
-#weight-slider::-moz-range-thumb {
-  width: 1.75rem;
-  height: 1.75rem;
-  border-radius: 50%;
-  background: red;
-  cursor: pointer;
-}
 
 
 .box{
     display: flex;
+      font-family: 1.2em "Amstelvar VF", Georgia, serif;
+      padding: 0;
 }
 
 .embed {
-height:100%;
+height:25vh;
   width: 25vw;
     float: left;
     text-align: center;
@@ -179,7 +112,7 @@ height:100%;
     min-width: 38px;
 }
 
-.container {
+.big{
 	margin: 0px;
 	display: -webkit-box;
 	display: -moz-box;
@@ -198,6 +131,7 @@ height:100%;
 
 .left {
   width: 50vw;
+  background: solid black;
 }
 
 .right {
@@ -230,7 +164,7 @@ height:100%;
 
     /* Handle */
 .right::-webkit-scrollbar-thumb {
-        background: yellow;
+        background: black;
             border: 1px solid black;
         border-radius: 6px;
     }
@@ -253,25 +187,26 @@ height:100%;
   .left:
 
 :-webkit-scrollbar {
-        width: 12px;
+      width: 12px;
+      border-right: 1px solid black;
     }
 
     /* Track */
 .left::-webkit-scrollbar-track {
-    border: 1px solid black;
-          border-radius: 6px;
+    border: 0px solid white;
+    border-radius: 6px;
     }
 
     /* Handle */
 .left::-webkit-scrollbar-thumb {
-        background: yellow;
-        border: 1px solid black;
+        background: black;
+        border: 1px solid white;
         border-radius: 6px;
     }
 
     /* Handle on hover */
 .left::-webkit-scrollbar-thumb:hover {
-        background: solid white; 
+        background: solid black; 
     }
 
 
@@ -308,9 +243,10 @@ a:hover {
 
 .rowtext {
   width: auto;
-  height: auto;
+  height: 100vh;
   border-bottom: 1px solid black;
   padding: 10px 10px 10px 10px;
+  background-color: black;
 
   display: grid;
   grid-template-columns: 36px auto;
@@ -321,14 +257,13 @@ a:hover {
   width: auto;
   height: auto;
   border-bottom: 1px solid black;
-  /*padding: 10px 10px 10px 10px;*/
-
+padding: 10px 10px 10px 10px;
   display: grid;
 }
 
 
 
-.section {
+.area {
   padding: 10px 40px 10px 10px;
   border-top: 1px solid black;
 }
