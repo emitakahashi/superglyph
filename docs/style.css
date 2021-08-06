@@ -60,9 +60,11 @@ text-align: left;
   background-color: black;
   background:url('images/tendril.JPG');
   background-position: center;
-  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-size: 100vw;
   grid-template-columns: 36px auto;
     overflow: hidden;
+    position: relative;
 }
 
 .g {
@@ -72,6 +74,7 @@ text-align: left;
   padding: 10px 10px 10px 10px;
   border-right: 1px solid black;
   display: inline-block;
+  position: relative;
 }
 
 
@@ -198,6 +201,7 @@ text-align: left;
 .left {
   width: 50vw;
   background: solid black;
+    position: relative;
   /*border-right: 1px solid black;*/
 }
 
@@ -325,6 +329,7 @@ text-align: left;
 .area {
   padding: 10px 10px 10px 10px;
   border-top: 0px solid black;
+  position: relative;
 }
 
 .line {
@@ -405,8 +410,9 @@ text-align: left;
 
 .g.range {
   position: relative;
-  bottom: 1vh;
- display: inline-block;
+      width: 100%;
+    height: 100%;
+
 
 
 }
@@ -562,27 +568,34 @@ blockquote {
   }
 
   .row {
-    grid-template-columns: 26px auto;
+
   }
 
 .solid button, 
 .area button, 
 .g button,
-.line button {
+.line button,
+.textbox button {
 
     font-size: 12px;
 }
 
 
+
+
 .cover{
   text-align: center;
-  width: auto;
+  width: 49vw;
   height: 100vh;
   border-bottom: 1px solid black;
-  padding: 2px;
+  padding: 10px 10px 0px 10px;
   background-color: black;
+  background:url('images/tendril.JPG');
   background-position: center;
+  background-size: 140vw;
   grid-template-columns: 36px auto;
+    overflow: hidden;
+    position: relative;
 }
 
 .area, {
@@ -606,6 +619,13 @@ blockquote {
 .dot {
   padding: 5px;
   border-top: 1px solid #D3D3D3;
+}
+
+
+#font {
+  font-size: 65vw;
+  font-weight: 500;
+  line-height: 1.5em;
 }
 
   
