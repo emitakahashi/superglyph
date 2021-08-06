@@ -108,9 +108,39 @@ text-align: left;
     user-select: none;
 }
 
+.line button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid white;
+    font-family: "Necto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    padding: 6px 6px 6px 6px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+}
 
 
-.area button:hover {
+.textbox button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid black;
+    font-family: "Necto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    padding: 6px 6px 6px 6px;
+    color :black;
+    background-color:  white;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+}
+
+
+.textbox button:hover {
     appearance: none;
     -webkit-appearance: none;
     border: 1px solid black;
@@ -120,7 +150,7 @@ text-align: left;
     padding: 6px 6px 6px 6px;
     color: black;
     background-color: white;
-    border-radius: 12px;
+    border-radius: 20px;
     text-align: center;
     user-select: none;
 }
@@ -295,7 +325,7 @@ text-align: left;
 
 .line {
   padding: 10px 10px 10px 10px;
-  border-top: 1px solid black;
+  border-top: 0px solid black;
 }
 
 
@@ -432,7 +462,7 @@ text-align: left;
   color: white;
 }
 .link:hover {
-  color: black;
+  color:black;
 }
 
 .no-class {
@@ -463,10 +493,10 @@ text-align: left;
   color:white;
   width:50%;
   line-height:50px;
-  background:url('https://d2w9rnfcy7mm78.cloudfront.net/11349467/original_718d3bb26567a287b0746f72e2d81e9a.gif?1616890122?bc=0') ;
+  background:url('https://media.itsnicethat.com/original_images/sangah-shin-jae-ee-cuteness-work-graphic-design-itsnicethat-9.gif') ;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 500px;
+  background-position: left;
+  background-size: 1800px;
   }
 
 
@@ -517,27 +547,14 @@ blockquote {
     grid-template-columns: 26px auto;
   }
 
-
-.g button {
-    appearance: none;
-    -webkit-appearance: none;
-    font-size: 12px;
-}
-
-
-.solid button {
+.solid button, 
+.area button, 
+.g button,
+.line button {
 
     font-size: 12px;
 }
 
-.area button {
-
-    font-size: 12px;
-}
-
-.area button:hover {
-    font-size: 12px;
-}
 
 .cover{
   text-align: center;
@@ -550,7 +567,7 @@ blockquote {
   grid-template-columns: 36px auto;
 }
 
-.area {
+.area, {
   padding: 5px;
   border-top: 0px solid black;
 }
