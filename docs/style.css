@@ -42,9 +42,21 @@ p,
 
 
 .box{
-    display: flex;
-      font-family: 1.2em "Amstelvar VF", Georgia, serif;
-      padding: 0;
+  display: flex;
+  padding: 0;
+  text-align: center;
+}
+
+
+.cover{
+  text-align: center;
+  width: auto;
+  height: 100vh;
+  border-bottom: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 36px auto;
 }
 
 .embed {
@@ -177,7 +189,7 @@ height:25vh;
     }
 
  
- /* LEFT SCROLLBAR */
+/* LEFT SCROLLBAR */
 
 
 
@@ -272,11 +284,13 @@ a:hover {
 }
 
 
+/* VARIABLE STUFF */
+
+
 #font {
   font-family: 'Squish';
-  font-size: 30em;
+  font-size: 50em;
   font-weight: 500;
-  background-colour: solid white;
 }
 
 
@@ -349,8 +363,6 @@ a:hover {
 
 
 
-
-
 #syllabus {
   border-top: 0px;
 }
@@ -373,10 +385,13 @@ a:hover {
 }
 
 
+.glyph {
+  color: white;
+}
+
 .time {
   color: Silver;
 }
-
 
 
 .ex1 {
