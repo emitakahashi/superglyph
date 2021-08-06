@@ -55,7 +55,7 @@ text-align: left;
   text-align: center;
   width: 49vw;
   height: 100vh;
-  border-bottom: 1px solid black;
+  border-bottom: 0px solid black;
   padding: 10px 10px 0px 10px;
   background-color: black;
   background:url('images/tendril.JPG');
@@ -72,7 +72,7 @@ text-align: left;
   width: 50vw;
   box-sizing: border-box;
   padding: 10px 10px 10px 10px;
-  border-right: 1px solid black;
+  border-right: 0px solid black;
   display: inline-block;
   position: relative;
 }
@@ -583,17 +583,21 @@ blockquote {
 
 .cover{
   text-align: center;
-  width: 49vw;
+  width: 45vw;
   height: 100vh;
-  border-bottom: 1px solid black;
-  padding: 10px 10px 0px 10px;
+
   background-color: black;
   background:url('images/tendril.JPG');
   background-position: center;
   background-size: 140vw;
   grid-template-columns: 36px auto;
-    overflow: hidden;
-    position: relative;
+}
+
+
+
+.g {
+  height:60vh;
+  width: 45vw;
 }
 
 .area, {
@@ -643,6 +647,13 @@ blockquote {
       display: block; 
 
     }
+
+
+    #weight-slider {
+  -webkit-appearance: none;
+  width: 40vw;
+}
+
 
 
 .img1, .gif1
