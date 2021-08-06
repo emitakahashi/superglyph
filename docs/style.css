@@ -70,7 +70,6 @@ text-align: left;
   box-sizing: border-box;
   padding: 10px 10px 10px 10px;
   border-right: 1px solid black;
-  vertical-align: middle;
   display: inline-block;
 }
 
@@ -103,7 +102,7 @@ text-align: left;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
     color: black;
-    background-color: LightGreen;
+    background-color: #E2F5BF;
     border-radius: 20px;
     text-align: center;
     user-select: none;
@@ -118,7 +117,7 @@ text-align: left;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
     color: white;
-    background-color: black;
+    background-color: #E2F5BF;
     border-radius: 20px;
     text-align: center;
     user-select: none;
@@ -334,14 +333,14 @@ text-align: left;
 
 
 .solid {
-  padding: 10px 10px 10px 10px;
-  background: Gainsboro;
+  padding: 10px 10px 20px 10px;
+  background: #E2F5BF;
 }
 
 
 .dot {
   padding: 10px 10px 10px 10px;
-  border-top: 1px solid LightGreen;
+  border-top: 1px solid black;
 }
 
 
@@ -396,7 +395,7 @@ text-align: left;
 
 
 .g.range {
-  position: absolute;
+  position: relative;
   bottom: 1vh;
  display: inline-block;
 
@@ -423,7 +422,7 @@ text-align: left;
 
 .today,
 #more {
-  background: Gainsboro;
+  background: #F1F1F1;
 }
 
 
@@ -442,23 +441,28 @@ text-align: left;
 
 
 .ex1 {
-  color: blue;
+  background-color: #E2F5BF;
+  color: black;
 }
 
 .ex2 {
-  color: LightGreen;
+  background-color: #E2F5BF;
+  color: black;
 }
 
 .ex3 {
-  color: DarkGreen;
+  background-color: #E2F5BF;
+  color: black;
 }
 
 .ex4 {
-  color: Olive;
+  background-color: #E2F5BF;
+  color: black;
 }
 
 .final {
-  color: Lime;
+  background-color: #E2F5BF;
+  color: black;
 }
 
 
@@ -585,7 +589,7 @@ blockquote {
 
 .solid {
   padding: 5px;
-  background: Gainsboro;
+  background: #F1F1F1;
 }
 
 
