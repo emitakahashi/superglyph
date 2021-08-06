@@ -1,17 +1,5 @@
 
 @font-face {
-    font-family: "MS-G";
-    src: url("fonts/MS-Gothic.ttf");
-}
-
-
-@font-face {
-    font-family: "MS-M";
-    src: url("fonts/MSMINCHO.TTF");
-}
-
-
-@font-face {
     font-family: "Necto";
     src: url("fonts/NectoMono-Regular.otf");
 }
@@ -41,6 +29,18 @@ p,
 }
 
 
+a {
+  color: black;
+  text-decoration: none;
+  z-index: 10;
+}
+
+a:hover {
+   color: transparent;
+   text-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+
 .box{
   display: flex;
   padding: 0;
@@ -53,7 +53,7 @@ text-align: left;
 
 .cover{
   text-align: center;
-  width: auto;
+  width: 49vw;
   height: 100vh;
   border-bottom: 1px solid black;
   padding: 10px 10px 10px 10px;
@@ -67,15 +67,31 @@ text-align: left;
   height:100vh;
   width: 50vw;
   box-sizing: border-box;
-  position: relative;
   padding: 10px 10px 10px 10px;
-  border-right: 1px solid black;
-
-  overflow:auto;
+  /*border-right: 1px solid black;*/
+  vertical-align: middle;
+  display: inline-block;
 }
 
 
-/* BUTTONS */
+/* BUTTONS
+-------------------------------------------------- */
+
+.solid button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid white;
+    font-family: "Necto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    padding: 6px 6px 6px 6px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    user-select: none;
+}
+
 
 .area button {
     appearance: none;
@@ -84,7 +100,7 @@ text-align: left;
     font-family: "Necto", sans-serif;
     font-size: 16px;
     letter-spacing: 0.04em;
-    padding: 4px 4px 6px 6px;
+    padding: 6px 6px 6px 6px;
     color: white;
     background-color: black;
     border-radius: 20px;
@@ -101,7 +117,7 @@ text-align: left;
     font-family: "Necto", sans-serif;
     font-size: 16px;
     letter-spacing: 0.04em;
-    padding: 4px 4px 6px 6px;
+    padding: 6px 6px 6px 6px;
     color: black;
     background-color: white;
     border-radius: 12px;
@@ -109,7 +125,26 @@ text-align: left;
     user-select: none;
 }
 
-/* CONTAINERS */
+
+
+.g button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0px solid black;
+    font-family: "Necto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    padding: 6px 6px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+
+/* CONTAINERS
+-------------------------------------------------- */
 
 .big{
 	margin: 0px;
@@ -148,20 +183,20 @@ text-align: left;
 }
 
 
-
-/* RIGHT SCROLLBAR */
+/* SCROLL BAR RIGHT
+-------------------------------------------------- */
 
 
     /* Track */
 .right::-webkit-scrollbar-track {
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 6px;
     }
 
     /* Handle */
 .right::-webkit-scrollbar-thumb {
     background: black;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 6px;
     }
 
@@ -172,11 +207,12 @@ text-align: left;
 
 
 .right::-webkit-scrollbar {
-    width: 12px;
+    width: 6px;
     }
 
  
-/* LEFT SCROLLBAR */
+/* SCROLL BAR LEFT
+-------------------------------------------------- */
 
 
 
@@ -184,7 +220,7 @@ text-align: left;
 .left::-webkit-scrollbar-track {
     border: 0px solid white;
     border-radius: 6px;
-          background: black; 
+    background: black; 
     }
 
     /* Handle */
@@ -208,31 +244,8 @@ text-align: left;
 
 
 
- /* SPACES */
-.nav {
-  position: fixed;
-  text-align: center;
-  right: 10px;
-  width: 24px;
-  height: auto;
-  padding: 0px;
-  padding-bottom: 2px;
-  border-left: 1px solid black; 
-  border-bottom: 1px solid black; 
-  border-right: 1px solid black;
-  background: yellow;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  z-index: 10;
-}
-
-a:hover {
-   color: transparent;
-   text-shadow: 0 0 3px rgba(0,0,0,0.5);
-}
+/* SPACES
+-------------------------------------------------- */
 
 .rowtext {
   width: auto;
@@ -281,11 +294,12 @@ a:hover {
 
 .dot {
   padding: 10px 10px 10px 10px;
-  border-top: 1px solid #D3D3D3;
+  border-top: 1px solid black;
 }
 
 
-/* VARIABLE STUFF */
+/* VARIABLE STUFF
+-------------------------------------------------- */
 
 
 #font {
@@ -293,6 +307,9 @@ a:hover {
   font-size: 65vw;
   font-weight: 500;
   line-height: 0.8em;
+  vertical-align: middle;
+
+  position: relative;
 }
 
 
@@ -331,32 +348,16 @@ a:hover {
 
 
 
-.g button {
-    appearance: none;
-    -webkit-appearance: none;
-    border: 0px solid black;
-    font-family: "Necto", sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    padding: 4px 6px;
-    background-color: white;
-
-    border-radius: 20px;
-    color: black;
-    text-align: center;
-    user-select: none;
-}
-
-
 .g.range {
-    margin: 25px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  position: absolute;
+  bottom: 1vh;
+ display: inline-block;
+
 }
+
 
 .column {
-  width: 25vw;
+  width: 24.5vw;
   float: left;
   }
 
@@ -485,7 +486,9 @@ blockquote {
 }
 
 
-/* Mobile
+
+
+/* MOBILE
 -------------------------------------------------- */
 
 @media screen and (max-width: 800px) {
@@ -505,6 +508,21 @@ blockquote {
 .g button {
     appearance: none;
     -webkit-appearance: none;
+    font-size: 12px;
+}
+
+
+.solid button {
+
+    font-size: 12px;
+}
+
+.area button {
+
+    font-size: 12px;
+}
+
+.area button:hover {
     font-size: 12px;
 }
 
