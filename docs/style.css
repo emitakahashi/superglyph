@@ -47,6 +47,9 @@ p,
   text-align: center;
 }
 
+.textbox{
+text-align: left;
+}
 
 .cover{
   text-align: center;
@@ -55,8 +58,8 @@ p,
   border-bottom: 1px solid black;
   padding: 10px 10px 10px 10px;
   background-color: black;
-  background:url('https://i.pinimg.com/originals/4d/cf/a3/4dcfa330c5b6c131ed8ff1a322cffc34.jpg') ;
-    background-position: center;
+  /*background:url('https://i.pinimg.com/originals/4d/cf/a3/4dcfa330c5b6c131ed8ff1a322cffc34.jpg') ; */
+  background-position: center;
   grid-template-columns: 36px auto;
 }
 
@@ -67,8 +70,12 @@ p,
   position: relative;
   padding: 10px 10px 10px 10px;
   border-right: 1px solid black;
+
+  overflow:auto;
 }
 
+
+/* BUTTONS */
 
 .area button {
     appearance: none;
@@ -102,9 +109,7 @@ p,
     user-select: none;
 }
 
-
-
-
+/* CONTAINERS */
 
 .big{
 	margin: 0px;
@@ -122,6 +127,7 @@ p,
 	/* avoid browser level touch actions */
 	xtouch-action: none; 
 }
+
 
 .left {
   width: 50vw;
@@ -143,7 +149,7 @@ p,
 
 
 
- /* RIGHT SCROLLBAR */
+/* RIGHT SCROLLBAR */
 
 
     /* Track */
@@ -234,7 +240,6 @@ a:hover {
   border-bottom: 1px solid black;
   padding: 10px 10px 10px 10px;
   background-color: black;
-
   display: grid;
   grid-template-columns: 36px auto;
 }
@@ -258,24 +263,24 @@ a:hover {
 
 
 .area {
-  padding: 10px 40px 10px 10px;
+  padding: 10px 10px 10px 10px;
   border-top: 0px solid black;
 }
 
 .line {
-  padding: 10px 40px 10px 10px;
+  padding: 10px 10px 10px 10px;
   border-top: 1px solid black;
 }
 
 
 .solid {
-  padding: 10px 40px 10px 10px;
+  padding: 10px 10px 10px 10px;
   background: Gainsboro;
 }
 
 
 .dot {
-  padding: 10px 40px 10px 10px;
+  padding: 10px 10px 10px 10px;
   border-top: 1px solid #D3D3D3;
 }
 
@@ -285,19 +290,19 @@ a:hover {
 
 #font {
   font-family: 'Squish';
-  font-size: 1100px;
+  font-size: 65vw;
   font-weight: 500;
-  line-height: 900px;
+  line-height: 0.8em;
 }
 
 
 #weight-slider {
   -webkit-appearance: none;
-  width: 20vw;
+  width: 25vw;
   height: 2px;
   border-radius: 3rem;
   background: white;
-  border: 1px solid black;
+  border: 1px solid white;
   outline: 1px;
 }
 
@@ -336,26 +341,29 @@ a:hover {
     padding: 4px 6px;
     background-color: white;
 
-    border-radius: 12px;
+    border-radius: 20px;
     color: black;
-    text-align: right;
+    text-align: center;
     user-select: none;
 }
 
 
 .g.range {
-    margin: 15px;
+    margin: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+.column {
+  width: 25vw;
+  float: left;
+  }
 
-.g button.value {
-    background-color: white;
-    border: 1px solid white;
-    min-width: 20px;
+.column2 {
+  float: left;
 }
+
 
 
 
@@ -445,8 +453,11 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 500px;
+  }
 
-}
+
+
+
 
 
 
@@ -469,15 +480,15 @@ blockquote {
 }
 
 .blur {
-   color: transparent;
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 
 /* Mobile
 -------------------------------------------------- */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   html,
   body, 
   p,
@@ -489,7 +500,74 @@ blockquote {
   .row {
     grid-template-columns: 26px auto;
   }
+
+
+.g button {
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 12px;
+}
+
+.cover{
+  text-align: center;
+  width: auto;
+  height: 100vh;
+  border-bottom: 1px solid black;
+  padding: 2px;
+  background-color: black;
+  background-position: center;
+  grid-template-columns: 36px auto;
+}
+
+.area {
+  padding: 5px;
+  border-top: 0px solid black;
+}
+
+
+.line {
+  padding: 5px;
+  border-top: 1px solid black;
+}
+
+
+.solid {
+  padding: 5px;
+  background: Gainsboro;
+}
+
+
+.dot {
+  padding: 5px;
+  border-top: 1px solid #D3D3D3;
+}
+
   
+.column {
+  width: 100vw;
+  float: left;
+  }
+
+.column2 {
+    width: 100vw;
+    float: left;
+  }
+
+.left, .right
+    {
+      display: block; 
+
+    }
+
+
+.img1, .gif1
+    {
+      display: block; 
+      float: none; 
+      width: 100%;
+
+    }
+
 } 
 
 {"mode":"full","isActive":false}
