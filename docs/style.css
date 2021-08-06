@@ -56,12 +56,13 @@ text-align: left;
   width: 49vw;
   height: 100vh;
   border-bottom: 1px solid black;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
   background-color: black;
   background:url('images/tendril.JPG');
   background-position: center;
   background-size: 1000px;
   grid-template-columns: 36px auto;
+    overflow: hidden;
 }
 
 .g {
@@ -363,10 +364,8 @@ text-align: left;
   font-size: 65vw;
   font-weight: 500;
   line-height: 0.8em;
-  vertical-align: middle;
-
-  position: relative;
 }
+
 
 
 #weight-slider {
@@ -408,6 +407,7 @@ text-align: left;
   position: relative;
   bottom: 1vh;
  display: inline-block;
+
 
 }
 
