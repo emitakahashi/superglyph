@@ -10,23 +10,19 @@
     src: url("fonts/MSMINCHO.TTF");
 }
 
-@font-face {
-    font-family: "ReviewMonoRegular";
-    src: url("fonts/ReviewMonoRegular.ttf");
-}
-
-
-@font-face {
-    font-family: "Kalice";
-    src: url("fonts/Kalice-Regular.otf");
-}
-
 
 @font-face {
     font-family: "Necto";
     src: url("fonts/NectoMono-Regular.otf");
 }
 
+
+@font-face {
+  font-family: 'Squish';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("fonts/SquishVF.woff2") format("woff2-variations");
+  }
 
 
 * {
@@ -43,13 +39,6 @@ p,
   font-style: normal;
   line-height: 1.1;
 }
-
-.b1 {
-colour:white;
-}
-
-
-
 
 
 .box{
@@ -91,9 +80,26 @@ height:25vh;
     font-family: "Necto", sans-serif;
     font-size: 16px;
     letter-spacing: 0.04em;
-    padding: 4px 6px;
+    padding: 4px 4px 6px 6px;
     color: white;
     background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+}
+
+
+
+.area button:hover {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid black;
+    font-family: "Necto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    padding: 4px 4px 6px 6px;
+    color: black;
+    background-color: white;
     border-radius: 12px;
     text-align: center;
     user-select: none;
@@ -101,19 +107,7 @@ height:25vh;
 
 
 
-.embed.range {
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
-
-.embed button.value {
-    background-color: white;
-    border: 1px solid black;
-    min-width: 38px;
-}
 
 .big{
 	margin: 0px;
@@ -241,7 +235,8 @@ a {
 }
 
 a:hover {
-  color: white;
+   color: transparent;
+   text-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
 .rowtext {
@@ -260,16 +255,99 @@ a:hover {
   width: auto;
   height: auto;
   border-bottom: 1px solid black;
-padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   display: grid;
 }
-
 
 
 .area {
   padding: 10px 40px 10px 10px;
   border-top: 1px solid black;
 }
+
+
+.dot {
+  padding: 10px 40px 10px 10px;
+  border-top: 1px solid #D3D3D3;
+}
+
+
+#font {
+  font-family: 'Squish';
+  font-size: 30em;
+  font-weight: 500;
+  background-colour: solid white;
+}
+
+
+
+#weight-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 3px;
+  border-radius: 3rem;
+  background: white;
+    border: 1px solid black;
+  outline: 1px;
+}
+
+
+
+#weight-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: yellow;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+
+
+#weight-slider::-moz-range-thumb {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: red;
+  cursor: pointer;
+}
+
+
+
+.embed button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid black;
+    font-family: "Necto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    padding: 4px 6px;
+    background-color: white;
+
+    border-radius: 12px;
+    color: black;
+    text-align: center;
+    user-select: none;
+}
+
+
+.embed.range {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.embed button.value {
+    background-color: white;
+    border: 1px solid black;
+    min-width: 38px;
+}
+
+
 
 
 
@@ -286,7 +364,7 @@ padding: 10px 10px 10px 10px;
 
 .today,
 #more {
-  background: black;
+  background: Gainsboro;
 }
 
 
@@ -295,44 +373,38 @@ padding: 10px 10px 10px 10px;
 }
 
 
-
-.demo {
-  color: orange;
-}
-.demo-link:hover {
-  color: orange;
+.time {
+  color: Silver;
 }
 
 
-.pres {
-  color: green;
-}
-.pres-link:hover {
-  color: green;
-}
 
-
-.guest {
-  color: red;
-}
-.guest-link:hover {
-  color: red;
-}
-
-
-.crit {
-  color: blue;
-}
-.crit-link:hover {
+.ex1 {
   color: blue;
 }
 
+.ex2 {
+  color: red;
+}
 
-.read {
+.ex3 {
   color: violet;
 }
-.read-link:hover {
-  color: violet;
+
+.ex4 {
+  color: green;
+}
+
+.final {
+  color: orange;
+}
+
+
+.link {
+  color: white;
+}
+.link:hover {
+  color: black;
 }
 
 .no-class {
@@ -341,17 +413,11 @@ padding: 10px 10px 10px 10px;
 
 
 
-
-
-
-
-
-
 /* TEXT
 --------------------------------------------------*/
 
 ol {
-  list-style-type: circle;
+  list-style-type: disc;
   margin-left: 20px;
 }
 
@@ -364,6 +430,10 @@ blockquote {
   margin-left: 20px;
 }
 
+.blur {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
 
 
 /* Mobile
