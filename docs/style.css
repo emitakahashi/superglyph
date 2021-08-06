@@ -68,7 +68,7 @@ text-align: left;
   width: 50vw;
   box-sizing: border-box;
   padding: 10px 10px 10px 10px;
-  /*border-right: 1px solid black;*/
+  border-right: 1px solid black;
   vertical-align: middle;
   display: inline-block;
 }
@@ -167,6 +167,7 @@ text-align: left;
 .left {
   width: 50vw;
   background: solid black;
+  border-right: 1px solid black;
 }
 
 .right {
@@ -188,59 +189,71 @@ text-align: left;
 
 
     /* Track */
+/*
 .right::-webkit-scrollbar-track {
     border: 1px solid black;
-    border-radius: 6px;
+    background: transparent; 
+    border-radius: 0px;
     }
-
+/*
     /* Handle */
+/*
 .right::-webkit-scrollbar-thumb {
     background: black;
     border: 2px solid black;
-    border-radius: 6px;
+    border-radius: 10px;
     }
 
     /* Handle on hover */
+/*    
 .right::-webkit-scrollbar-thumb:hover {
     background: solid white; 
     }
+*/
 
-
+/*
 .right::-webkit-scrollbar {
     width: 6px;
-    }
+} */
+
 
  
 /* SCROLL BAR LEFT
 -------------------------------------------------- */
 
-
-
     /* Track */
+
+/*    
 .left::-webkit-scrollbar-track {
     border: 0px solid white;
     border-radius: 6px;
-    background: black; 
+    background: white; 
     }
 
     /* Handle */
+/*
 .left::-webkit-scrollbar-thumb {
-    background: red;
+    background: black;
     border: 0px solid white;
     border-radius: 6px;
+    overflow: auto
     }
 
     /* Handle on hover */
+/*
 .left::-webkit-scrollbar-thumb:hover {
       background: red; 
     }
 
-
+*/
+/*
 .left::-webkit-scrollbar {
-    width: 6px;
+    width: 3px;
+    overflow: auto
     }
- 
+*/
  /* END SCROLLBAR */
+
 
 
 
