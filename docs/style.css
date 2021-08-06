@@ -380,7 +380,8 @@ text-align: left;
   border-radius: 3rem;
   background: white;
   border: 1px solid white;
-  outline: 1px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
@@ -412,8 +413,6 @@ text-align: left;
   position: relative;
       width: 100%;
     height: 100%;
-
-
 
 }
 
@@ -582,7 +581,6 @@ blockquote {
 
 
 
-
 .cover{
   text-align: center;
   width: 49vw;
@@ -627,6 +625,7 @@ blockquote {
   font-weight: 500;
   line-height: 1.5em;
 }
+
 
   
 .column {
