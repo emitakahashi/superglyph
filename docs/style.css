@@ -463,27 +463,33 @@ word-wrap: break-word;
 
 
 .ex1 {
-  background-color: #E2F5BF;
+  background-color: GreenYellow;
   color: black;
 }
 
 .ex2 {
-  background-color: #E2F5BF;
+  background-color: GreenYellow;
   color: black;
 }
 
 .ex3 {
-  background-color: #E2F5BF;
+  background-color: GreenYellow;
   color: black;
 }
 
 .ex4 {
-  background-color: #E2F5BF;
+  background-color: GreenYellow;
+  color: black;
+}
+
+.outcome {
+  text-decoration: underline double;
+  text-decoration-color: GreenYellow;
   color: black;
 }
 
 .final {
-  background-color: #E2F5BF;
+  background-color: GreenYellow;
   color: black;
 }
 
