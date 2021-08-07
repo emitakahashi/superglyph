@@ -157,13 +157,13 @@ word-wrap: break-word;
 .textbox button {
     appearance: none;
     -webkit-appearance: none;
-    border: 1px solid black;
+    border: 1px solid white;
     font-family: "Necto", sans-serif;
     font-size: 15px;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
-    color :black;
-    background-color:  white;
+    color: black;
+    background-color: GreenYellow;
     border-radius: 20px;
     text-align: center;
     user-select: none;
@@ -236,9 +236,9 @@ word-wrap: break-word;
 
 .solid {
   padding: 10px 10px 20px 10px;
-  background: GreenYellow;
+  background: #BCE9B8;
   border-top: 0px solid black;
-  box-shadow: 0 0 30px 25px  GreenYellow;
+  box-shadow: 0 0 30px 25px  #BCE9B8;
 }
 
 
