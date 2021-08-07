@@ -515,7 +515,7 @@ padding-top: 50%;
   background:url('https://media.itsnicethat.com/original_images/sangah-shin-jae-ee-cuteness-work-graphic-design-itsnicethat-9.gif') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1000px;
+  background-size: 100%;
 padding-top: 50%;
   }
 
@@ -638,7 +638,7 @@ blockquote {
 .left, .right
     {
       display: block; 
-        border-right: 1px solid black;
+      border-right: 1px solid black;
     }
 
 
