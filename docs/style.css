@@ -12,6 +12,13 @@
   src: url("fonts/SquishVF.woff2") format("woff2-variations");
   }
 
+  @font-face {
+  font-family: 'AM';
+    src: url("fonts/AmbiantVariable-LightSans.ttf");
+}
+
+
+
 
 * {
   margin: 0;
@@ -32,6 +39,7 @@ p,
 a {
   color: black;
   text-decoration: none;
+  text-shadow: 0 0 3px GreenYellow;
   z-index: 10;
 }
 
@@ -104,25 +112,27 @@ word-wrap: break-word;
     font-family: "Necto", sans-serif;
     font-size: 15px;
     letter-spacing: 0.04em;
-    padding: 6px 6px 6px 6px;
+    padding: 3px 6px 5px 6px;
     color: black;
     background-color: white;
     border-radius: 25px;
     text-align: center;
     user-select: none;
+    box-shadow: 0 0 8px 4px  white;
+    
 }
 
 
 .area button {
     appearance: none;
     -webkit-appearance: none;
-    border: 1px solid white;
+    border: 1px solid GreenYellow;
     font-family: "Necto", sans-serif;
     font-size: 15px;
     letter-spacing: 0.04em;
-    padding: 6px 6px 6px 6px;
+    padding: 3px 6px 5px 6px;
     color: black;
-    background-color: #E2F5BF;
+    background-color: GreenYellow;
     border-radius: 20px;
     text-align: center;
     user-select: none;
@@ -136,8 +146,8 @@ word-wrap: break-word;
     font-size: 15px;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
-    color: white;
-    background-color: #E2F5BF;
+    color: black;
+    background-color: GreenYellow;
     border-radius: 20px;
     text-align: center;
     user-select: none;
@@ -169,13 +179,83 @@ word-wrap: break-word;
     font-family: "Necto", sans-serif;
     font-size: 15px;
     letter-spacing: 0.04em;
-    padding: 6px 6px;
+    padding: 3px 6px 5px 6px;
     background-color: white;
     border-radius: 20px;
     color: black;
     text-align: center;
     position: relative;
+    box-shadow: 0 0 8px 3px  white;
 }
+
+
+
+/* SPACES
+-------------------------------------------------- */
+
+.rowtext {
+  width: auto;
+  height: 100vh;
+  border-bottom: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 36px auto;
+}
+
+
+.row {
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  display: grid;
+  overflow-wrap: break-word;
+}
+
+.participant {
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid black;
+  padding: 0px 0px 0px 0px;
+  display: grid;
+}
+
+
+.area {
+  padding: 10px 10px 10px 10px;
+  border-top: 0px solid black;
+  position: relative;
+}
+
+.line {
+  padding: 10px 10px 10px 10px;
+  border-top: 1px solid black;
+}
+
+
+.solid {
+  padding: 10px 10px 20px 10px;
+  background: GreenYellow;
+  border-top: 0px solid black;
+  box-shadow: 0 0 30px 25px  GreenYellow;
+}
+
+
+.dot {
+  padding: 10px 10px 10px 10px;
+  border-top: 1px solid black;
+}
+
+
+.right:hover .dot {
+  filter: blur(5px);
+}
+
+.right .dot:hover {
+  filter: blur(0);
+}
+
 
 
 /* CONTAINERS
@@ -232,15 +312,15 @@ word-wrap: break-word;
 .right::-webkit-scrollbar-track {
     background-color: white;
     border: 1px solid black;
-    border-radius: 0px;
+    border-radius: 6px;
     }
 
     /* Handle */
 
 .right::-webkit-scrollbar-thumb {
-    background: LightGreen;
+    background: GreenYellow;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 6px;
     transition: background-color .5s;
     }
 
@@ -251,7 +331,7 @@ word-wrap: break-word;
     }
 
 .right::-webkit-scrollbar {
-    width: 4px;
+    width: 6px;
 }
 
 
@@ -265,15 +345,15 @@ word-wrap: break-word;
 .left::-webkit-scrollbar-track {
     background: white; 
     border: 1px solid black;
-    border-radius: 0px;
+    border-radius: 6px;
     }
 
     /* Handle */
 
 .left::-webkit-scrollbar-thumb {
-    background: LightGreen;
+    background: GreenYellow;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 6px;
     overflow: auto
     }
 
@@ -285,77 +365,11 @@ word-wrap: break-word;
 
 
 .left::-webkit-scrollbar {
-    width: 4px;
+    width: 6px;
     }
 
  /* END SCROLLBAR */
 
-
-
-
-/* SPACES
--------------------------------------------------- */
-
-.rowtext {
-  width: auto;
-  height: 100vh;
-  border-bottom: 1px solid black;
-  padding: 10px 10px 10px 10px;
-  background-color: black;
-  display: grid;
-  grid-template-columns: 36px auto;
-}
-
-
-.row {
-  width: auto;
-  height: auto;
-  border-bottom: 1px solid black;
-  padding: 10px 10px 10px 10px;
-  display: grid;
-  overflow-wrap: break-word;
-}
-
-.participant {
-  width: auto;
-  height: auto;
-  border-bottom: 1px solid black;
-  padding: 0px 0px 0px 0px;
-  display: grid;
-}
-
-
-.area {
-  padding: 10px 10px 10px 10px;
-  border-top: 0px solid black;
-  position: relative;
-}
-
-.line {
-  padding: 10px 10px 10px 10px;
-  border-top: 1px solid black;
-}
-
-
-.solid {
-  padding: 10px 10px 20px 10px;
-  background: #E2F5BF;
-}
-
-
-.dot {
-  padding: 10px 10px 10px 10px;
-  border-top: 1px solid black;
-}
-
-
-.right:hover .dot {
-  filter: blur(5px);
-}
-
-.right .dot:hover {
-  filter: blur(0);
-}
 
 
 
@@ -438,8 +452,13 @@ word-wrap: break-word;
   color: white;
 }
 
+
+.icon {
+  color: GreenYellow;
+}
+
 .time {
-  color: Silver;
+  color: DarkGray;
 }
 
 
@@ -500,7 +519,7 @@ word-wrap: break-word;
 .img1 {
   width: 50%;
   float: left;
-  background:url('https://d2w9rnfcy7mm78.cloudfront.net/8677389/original_4c2b61ca52f440ce92947b7fdc985221.jpg?1600001509?bc=0') ;
+  background:url('images/tendril.JPG') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 600px;
@@ -606,8 +625,7 @@ blockquote {
 
 
 .solid {
-  padding: 5px;
-  background: #F1F1F1;
+  padding: 10px 5px 20px 5px;;
 }
 
 
