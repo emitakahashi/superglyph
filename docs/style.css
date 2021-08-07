@@ -367,7 +367,7 @@ word-wrap: break-word;
   font-family: 'Squish';
   font-size: 65vw;
   font-weight: 500;
-  line-height: 80vh;
+  line-height: 85vh;
 }
 
 
@@ -621,7 +621,7 @@ blockquote {
 #font {
   font-size: 60vw;
   font-weight: 500;
-  line-height: 80vh;
+  line-height: 75vh;
   float: center;
 }
 
