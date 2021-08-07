@@ -42,9 +42,9 @@ a:hover {
 
 
 .box{
-  display: flex;
-  height: relative;
-  padding: 0;
+
+  border-collapse: collapse;
+  width: 100%;
   text-align: center;
 
 }
@@ -160,21 +160,6 @@ word-wrap: break-word;
 }
 
 
-.textbox button:hover {
-    appearance: none;
-    -webkit-appearance: none;
-    border: 1px solid black;
-    font-family: "Necto", sans-serif;
-    font-size: 15px;
-    letter-spacing: 0.04em;
-    padding: 6px 6px 6px 6px;
-    color: black;
-    background-color: white;
-    border-radius: 20px;
-    text-align: center;
-    user-select: none;
-}
-
 
 
 .g button {
@@ -197,14 +182,11 @@ word-wrap: break-word;
 -------------------------------------------------- */
 
 .big{
-	margin: 0px;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	flex-direction: row;
-	-webkit-flex-direction: row;
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   width: 100vw;
@@ -508,26 +490,33 @@ word-wrap: break-word;
               /* PARTICIPANT 1
               --------------------------------------------------*/
 
+
+.img1,
+.gif1 {
+  display: table-cell;
+  width: 100%;
+}
+
 .img1 {
-  width: 25vw;
+  width: 50%;
   float: left;
   background:url('https://d2w9rnfcy7mm78.cloudfront.net/8677389/original_4c2b61ca52f440ce92947b7fdc985221.jpg?1600001509?bc=0') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 600px;
-  aspect-ratio: 1/1;
+padding-top: 50%;
   }
 
 
 .gif1 {
-  float: left;
   color:white;
-  width: 25vw;
+  width: 50%;
+    float: left;
   background:url('https://media.itsnicethat.com/original_images/sangah-shin-jae-ee-cuteness-work-graphic-design-itsnicethat-9.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1000px;
-  aspect-ratio: 1/1;
+padding-top: 50%;
   }
 
 
@@ -555,9 +544,6 @@ blockquote {
   color: transparent;
   text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
-
-
-
 
 
 
@@ -593,7 +579,6 @@ blockquote {
   text-align: center;
   width: 48vw;
   height: 100vh;
-
   background-color: black;
   background:url('images/tendril.JPG');
   background-position: center;
@@ -653,7 +638,6 @@ blockquote {
 .left, .right
     {
       display: block; 
-
     }
 
 
@@ -663,17 +647,22 @@ blockquote {
 }
 
 
-.box {
-  flex-direction: column;
+  .img1 {
+    display: table-header-group;
+    background-position: center;
+    background-size: 60vw;
+    width: 100%;
+    padding-top: 100%
+  }
+  .gif1 {
+    display: table-footer-group;
+    background-position: center;
+    background-size: 60vw;
+    width: 100%;
+    padding-top: 100%
   }
 
-.img1, .gif1 {
 
-      background-position: center;
-      background-size: 60vw;
-      width: auto;
-
-    }
 
 } 
 
