@@ -553,21 +553,7 @@ blockquote {
 
 
 
-/* TABLET
--------------------------------------------------- */
 
-@media screen and (max-width: 1200px) {
-  html,
-  body, 
-  p,
-
- #weight-slider {
-  -webkit-appearance: none;
-  width: 40vw;
-}
-
-  }
-}
 
 
 
@@ -600,7 +586,7 @@ blockquote {
 
 .cover{
   text-align: center;
-  width: 45vw;
+  width: 48vw;
   height: 100vh;
 
   background-color: black;
@@ -614,7 +600,7 @@ blockquote {
 
 .g {
   height:60vh;
-  width: 45vw;
+  width: 48vw;
 }
 
 .area, {
@@ -644,7 +630,7 @@ blockquote {
 #font {
   font-size: 65vw;
   font-weight: 500;
-  line-height: 1.5em;
+  line-height: 1em;
 }
 
 
@@ -673,11 +659,13 @@ blockquote {
 
 
 
-.img1, .gif1
-    {
+.img1, .gif1 {
+
       display: block; 
       float: none; 
       width: 100%;
+      background-position: center;
+      background-size: 300px;
 
     }
 
