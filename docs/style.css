@@ -23,7 +23,7 @@ body,
 p,
 .h1 {
   font-family: Necto, serif;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   line-height: 1.1;
 }
@@ -53,9 +53,19 @@ a:hover {
 text-align: left;
 overflow-wrap: break-word;
 word-wrap: break-word;
-
-
 }
+
+.column {
+  width: 24.5vw;
+  float: left;
+  word-wrap: break-word
+  }
+
+.column2 {
+  float: left;
+  word-wrap: break-word
+}
+
 
 .cover{
   text-align: center;
@@ -92,7 +102,7 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid white;
     font-family: "Necto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
     color: black;
@@ -108,7 +118,7 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid white;
     font-family: "Necto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
     color: black;
@@ -123,7 +133,7 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid white;
     font-family: "Necto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
     color: white;
@@ -139,7 +149,7 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid black;
     font-family: "Necto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
     color :black;
@@ -155,7 +165,7 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid black;
     font-family: "Necto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.04em;
     padding: 6px 6px 6px 6px;
     color: black;
@@ -172,7 +182,7 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 0px solid black;
     font-family: "Necto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.04em;
     padding: 6px 6px;
     background-color: white;
@@ -213,7 +223,7 @@ word-wrap: break-word;
 
 .right {
   width: 50vw;
-    overflow: auto;
+  overflow: auto;
   /*background-color: black;*/
 }
 
@@ -379,7 +389,6 @@ word-wrap: break-word;
 }
 
 
-
 #weight-slider {
   -webkit-appearance: none;
   width: 25vw;
@@ -396,8 +405,8 @@ word-wrap: break-word;
 #weight-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 100%;
   background: white;
   border: 0px solid black;
@@ -407,8 +416,8 @@ word-wrap: break-word;
 
 
 #weight-slider::-moz-range-thumb {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 100%;
   background: red;
   cursor: pointer;
@@ -421,18 +430,6 @@ word-wrap: break-word;
       width: 100%;
     height: 100%;
 
-}
-
-
-.column {
-  width: 24.5vw;
-  float: left;
-  word-wrap: break-word
-  }
-
-.column2 {
-  float: left;
-  word-wrap: break-word
 }
 
 
@@ -508,9 +505,11 @@ word-wrap: break-word;
 --------------------------------------------------*/
 
 
+              /* PARTICIPANT 1
+              --------------------------------------------------*/
+
 .img1 {
-  height: 100%;
-  width: 100%;
+  width: 25vw;
   float: left;
   background:url('https://d2w9rnfcy7mm78.cloudfront.net/8677389/original_4c2b61ca52f440ce92947b7fdc985221.jpg?1600001509?bc=0') ;
   background-repeat: no-repeat;
@@ -520,21 +519,16 @@ word-wrap: break-word;
   }
 
 
-
 .gif1 {
-  float: right;
+  float: left;
   color:white;
-  height: 100%;
-  width: 100%;
+  width: 25vw;
   background:url('https://media.itsnicethat.com/original_images/sangah-shin-jae-ee-cuteness-work-graphic-design-itsnicethat-9.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1000px;
   aspect-ratio: 1/1;
   }
-
-
-
 
 
 
@@ -647,12 +641,12 @@ blockquote {
 
   
 .column {
-  width: 100vw;
+  width: 100%;
   float: left;
   }
 
 .column2 {
-    width: 100vw;
+    width: 100%;
     float: left;
   }
 
