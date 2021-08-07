@@ -42,7 +42,7 @@ a:hover {
 
 
 .box{
-
+  display: table;
   border-collapse: collapse;
   width: 100%;
   text-align: center;
@@ -577,7 +577,7 @@ blockquote {
 
 .cover{
   text-align: center;
-  width: 48vw;
+  width: 45vw;
   height: 100vh;
   background-color: black;
   background:url('images/tendril.JPG');
@@ -590,7 +590,7 @@ blockquote {
 
 .g {
   height:60vh;
-  width: 48vw;
+  width: 45vw;
 }
 
 .area, {
@@ -618,7 +618,7 @@ blockquote {
 
 
 #font {
-  font-size: 65vw;
+  font-size: 60vw;
   font-weight: 500;
   line-height: 1em;
 }
@@ -649,14 +649,14 @@ blockquote {
 
 
   .img1 {
-    display: table-header-group;
+    display: table-footer-group;
     background-position: center;
     background-size: 60vw;
     width: 100%;
     padding-top: 100%
   }
   .gif1 {
-    display: table-footer-group;
+    display: table-header-group;
     background-position: center;
     background-size: 60vw;
     width: 100%;
