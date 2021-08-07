@@ -553,11 +553,28 @@ blockquote {
 
 
 
+/* TABLET
+-------------------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+  html,
+  body, 
+  p,
+
+ #weight-slider {
+  -webkit-appearance: none;
+  width: 40vw;
+}
+
+  }
+}
+
+
 
 /* MOBILE
 -------------------------------------------------- */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   html,
   body, 
   p,
@@ -649,7 +666,7 @@ blockquote {
     }
 
 
-    #weight-slider {
+ #weight-slider {
   -webkit-appearance: none;
   width: 40vw;
 }
