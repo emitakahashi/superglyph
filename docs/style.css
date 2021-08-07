@@ -119,7 +119,7 @@ word-wrap: break-word;
     text-align: center;
     user-select: none;
     box-shadow: 0 0 8px 4px  white;
-    
+
 }
 
 
@@ -631,7 +631,6 @@ blockquote {
 
 .dot {
   padding: 5px;
-  border-top: 1px solid #D3D3D3;
 }
 
 
