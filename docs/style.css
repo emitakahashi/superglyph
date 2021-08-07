@@ -569,7 +569,6 @@ blockquote {
 .g button,
 .line button,
 .textbox button {
-
     font-size: 12px;
 }
 
@@ -577,7 +576,7 @@ blockquote {
 
 .cover{
   text-align: center;
-  width: 45vw;
+  width: 100%;
   height: 100vh;
   background-color: black;
   background:url('images/tendril.JPG');
@@ -589,8 +588,9 @@ blockquote {
 
 
 .g {
-  height:60vh;
-  width: 45vw;
+  height:100vh;
+  width: 95%;
+  float: left;
 }
 
 .area, {
@@ -620,7 +620,8 @@ blockquote {
 #font {
   font-size: 60vw;
   font-weight: 500;
-  line-height: 1em;
+  line-height: 1.2em;
+  float: center;
 }
 
 
@@ -653,14 +654,15 @@ blockquote {
     background-position: center;
     background-size: 60vw;
     width: 100%;
-    padding-top: 100%
+    padding-top: 100%;
+
   }
   .gif1 {
     display: table-header-group;
     background-position: center;
     background-size: 60vw;
     width: 100%;
-    padding-top: 100%
+    padding-top: 100%;
   }
 
 
