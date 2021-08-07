@@ -43,12 +43,18 @@ a:hover {
 
 .box{
   display: flex;
+  height: relative;
   padding: 0;
   text-align: center;
+
 }
 
 .textbox{
 text-align: left;
+overflow-wrap: break-word;
+word-wrap: break-word;
+
+
 }
 
 .cover{
@@ -315,6 +321,7 @@ text-align: left;
   border-bottom: 1px solid black;
   padding: 10px 10px 10px 10px;
   display: grid;
+  overflow-wrap: break-word;
 }
 
 .participant {
@@ -420,10 +427,12 @@ text-align: left;
 .column {
   width: 24.5vw;
   float: left;
+  word-wrap: break-word
   }
 
 .column2 {
   float: left;
+  word-wrap: break-word
 }
 
 
@@ -500,13 +509,14 @@ text-align: left;
 
 
 .img1 {
-  height: 30vh;
-  width: 25vw;
+  height: 100%;
+  width: 100%;
   float: left;
   background:url('https://d2w9rnfcy7mm78.cloudfront.net/8677389/original_4c2b61ca52f440ce92947b7fdc985221.jpg?1600001509?bc=0') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 500px;
+  background-size: 600px;
+  aspect-ratio: 1/1;
   }
 
 
@@ -514,12 +524,13 @@ text-align: left;
 .gif1 {
   float: right;
   color:white;
-  width:50%;
-  line-height:50px;
+  height: 100%;
+  width: 100%;
   background:url('https://media.itsnicethat.com/original_images/sangah-shin-jae-ee-cuteness-work-graphic-design-itsnicethat-9.gif') ;
   background-repeat: no-repeat;
-  background-position: left;
-  background-size: 1800px;
+  background-position: center;
+  background-size: 1000px;
+  aspect-ratio: 1/1;
   }
 
 
@@ -658,14 +669,15 @@ blockquote {
 }
 
 
+.box {
+  flex-direction: column;
+  }
 
 .img1, .gif1 {
 
-      display: block; 
-      float: none; 
-      width: 100%;
       background-position: center;
-      background-size: 400px;
+      background-size: 60vw;
+      width: auto;
 
     }
 
