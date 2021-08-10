@@ -510,11 +510,7 @@ word-wrap: break-word;
 
 /* PARTICIPANT IMAGES
 --------------------------------------------------*/
-
-
-              /* PARTICIPANT 1
-              --------------------------------------------------*/
-
+       
 
 .img1,
 .gif1 {
@@ -522,13 +518,17 @@ word-wrap: break-word;
   width: 100%;
 }
 
+
+ /* PARTICIPANT 1
+              --------------------------------------------------*/
+
 .img1 {
   width: 50%;
   float: left;
   background:url('images/tendril.JPG') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 600px;
+  background-size: 100%;
 padding-top: 50%;
   }
 
@@ -543,6 +543,27 @@ padding-top: 50%;
   background-size: 100%;
 padding-top: 50%;
   }
+
+
+ /* PARTICIPANT 2
+              --------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -642,7 +663,6 @@ blockquote {
 
 #font {
   font-size: 60vw;
-  font-weight: 500;
   line-height: 65vh;
   float: center;
 }
@@ -672,21 +692,21 @@ blockquote {
 }
 
 
-  .img1 {
+
+
+/* PARTICIPANTS
+-------------------------------------------------- */
+
+
+  .img1, .gif1 {
     display: table-footer-group;
     background-position: center;
-    background-size: 60vw;
+    background-size: 100%;
     width: 100%;
     padding-top: 100%;
 
   }
-  .gif1 {
-    display: table-header-group;
-    background-position: center;
-    background-size: 60vw;
-    width: 100%;
-    padding-top: 100%;
-  }
+
 
 
 
