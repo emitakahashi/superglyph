@@ -18,6 +18,10 @@
 }
 
 
+  @font-face {
+  font-family: 'Nimbus';
+    src: url("fonts/NimbusSansT-RegularCondensed.otf");
+}
 
 
 * {
@@ -30,7 +34,7 @@ body,
 p,
 .h1 {
   font-family: Necto, serif;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   line-height: 1.1;
 }
@@ -81,7 +85,7 @@ word-wrap: break-word;
   height: 100vh;
   border-bottom: 0px solid black;
   padding: 10px 10px 0px 10px;
-  background-color: black;
+  background-color: GreenYellow;
   background:url('images/tendril.JPG');
   background-position: center;
   background-repeat: no-repeat;
@@ -110,9 +114,9 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid white;
     font-family: "Necto", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.04em;
-    padding: 3px 6px 5px 6px;
+    padding: 2px 5px 2px 5px;
     color: black;
     background-color: white;
     border-radius: 25px;
@@ -128,9 +132,9 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid GreenYellow;
     font-family: "Necto", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.04em;
-    padding: 3px 6px 5px 6px;
+    padding: 2px 5px 2px 5px;
     color: black;
     background-color: GreenYellow;
     border-radius: 20px;
@@ -143,9 +147,9 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid white;
     font-family: "Necto", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.04em;
-    padding: 6px 6px 6px 6px;
+    padding: 2px 5px 2px 5px;
     color: black;
     background-color: GreenYellow;
     border-radius: 20px;
@@ -159,9 +163,9 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 1px solid white;
     font-family: "Necto", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.04em;
-    padding: 6px 6px 6px 6px;
+    padding: 2px 5px 2px 5px;
     color: black;
     background-color: GreenYellow;
     border-radius: 20px;
@@ -177,9 +181,9 @@ word-wrap: break-word;
     -webkit-appearance: none;
     border: 0px solid black;
     font-family: "Necto", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.04em;
-    padding: 3px 6px 5px 6px;
+    padding: 2px 10px 2px 10px;
     background-color: white;
     border-radius: 20px;
     color: black;
@@ -231,6 +235,13 @@ word-wrap: break-word;
 .line {
   padding: 10px 10px 10px 10px;
   border-top: 1px solid black;
+}
+
+
+.break {
+  padding: 10px 10px 10px 10px;
+  border-top: 1px solid black;
+    background-color: GreenYellow;
 }
 
 
@@ -449,7 +460,13 @@ word-wrap: break-word;
 
 
 .glyph {
+
+  /*color: #cff598;*/
   color: white;
+  /*text-shadow: -1px -1px 0 #ffff, 1px -1px 0 #ffff, -1px 1px 0 #ffff, 1px 1px 0 #ffff;*/
+  /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+   text-shadow: -10px -10px 10 #ffff, 10px -10px 0 #ffff, -10px 10px 0 #ffff, 10px 10px 0 #ffff;
+      /*text-shadow: 0 0 15px #ffff;*/
 }
 
 
@@ -513,7 +530,9 @@ word-wrap: break-word;
        
 
 .img1,
-.gif1 {
+.gif1, 
+.img2, 
+.gif2 {
   display: table-cell;
   width: 100%;
 }
@@ -537,7 +556,7 @@ padding-top: 50%;
   color:white;
   width: 50%;
     float: left;
-  background:url('https://media.itsnicethat.com/original_images/sangah-shin-jae-ee-cuteness-work-graphic-design-itsnicethat-9.gif') ;
+  background:url('https://im7.ezgif.com/tmp/ezgif-7-706b51060750.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -547,6 +566,224 @@ padding-top: 50%;
 
  /* PARTICIPANT 2
               --------------------------------------------------*/
+
+
+.img2 {
+  width: 50%;
+  float: left;
+  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif2 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+
+/* PARTICIPANT 3
+              --------------------------------------------------*/
+
+
+.img3 {
+  width: 50%;
+  float: left;
+  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif3 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+
+/* PARTICIPANT 4
+              --------------------------------------------------*/
+
+.img4 {
+  width: 50%;
+  float: left;
+  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif4 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+
+/* PARTICIPANT 5
+              --------------------------------------------------*/
+
+.img5 {
+  width: 50%;
+  float: left;
+  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif5 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+/* PARTICIPANT 6
+              --------------------------------------------------*/
+
+.img6 {
+  width: 50%;
+  float: left;
+  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif6 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+/* PARTICIPANT 7
+              --------------------------------------------------*/
+
+.img7 {
+  width: 50%;
+  float: left;
+  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif7 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+/* PARTICIPANT 8
+              --------------------------------------------------*/
+
+.img8 {
+  width: 50%;
+  float: left;
+  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif8 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -698,7 +935,7 @@ blockquote {
 -------------------------------------------------- */
 
 
-  .img1, .gif1 {
+  .img1, .gif1, .img2, .gif2, .img3, .gif3, .img4 .gif4, .img5, .gif5, .img6, .gif6, .img7, .gif7 {
     display: table-footer-group;
     background-position: center;
     background-size: 100%;
