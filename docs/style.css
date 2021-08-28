@@ -18,12 +18,6 @@
 }
 
 
-  @font-face {
-  font-family: 'Nimbus';
-    src: url("fonts/NimbusSansT-RegularCondensed.otf");
-}
-
-
 * {
   margin: 0;
   padding: 0;
