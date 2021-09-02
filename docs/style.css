@@ -526,7 +526,7 @@ word-wrap: break-word;
 .img1,
 .gif1, 
 .img2, 
-.gif2 {
+.gif2, {
   display: table-cell;
   width: 100%;
 }
@@ -549,12 +549,12 @@ padding-top: 50%;
 .gif1 {
   color:white;
   width: 50%;
-    float: left;
-  background:url('https://im7.ezgif.com/tmp/ezgif-7-706b51060750.gif') ;
+  float: left;
+  background:url('images/tendril_motion.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-padding-top: 50%;
+  padding-top: 50%;
   }
 
 
@@ -565,7 +565,7 @@ padding-top: 50%;
 .img2 {
   width: 50%;
   float: left;
-  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-color: GreenYellow;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
@@ -577,7 +577,7 @@ padding-top: 50%;
   color:white;
   width: 50%;
   float: left;
-  background:url('') ;
+  background:url('');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -593,7 +593,7 @@ padding-top: 50%;
 .img3 {
   width: 50%;
   float: left;
-  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-color: GreenYellow;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
@@ -620,7 +620,7 @@ padding-top: 50%;
 .img4 {
   width: 50%;
   float: left;
-  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-color: GreenYellow;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
@@ -647,7 +647,7 @@ padding-top: 50%;
 .img5 {
   width: 50%;
   float: left;
-  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-color: GreenYellow;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
@@ -673,7 +673,7 @@ padding-top: 50%;
 .img6 {
   width: 50%;
   float: left;
-  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-color: GreenYellow;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
@@ -699,7 +699,7 @@ padding-top: 50%;
 .img7 {
   width: 50%;
   float: left;
-  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-color: GreenYellow;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
@@ -725,7 +725,7 @@ padding-top: 50%;
 .img8 {
   width: 50%;
   float: left;
-  background:url('https://upload.wikimedia.org/wikipedia/en/c/c8/Very_Black_screen.jpg') ;
+  background-color: GreenYellow;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
@@ -929,7 +929,7 @@ blockquote {
 -------------------------------------------------- */
 
 
-  .img1, .gif1, .img2, .gif2, .img3, .gif3, .img4 .gif4, .img5, .gif5, .img6, .gif6, .img7, .gif7 {
+  .img1, .gif1, .img2, .gif2, .img3, .gif3, .img4, .gif4, .img5, .gif5, .img6, .gif6, .img7, .gif7 {
     display: table-footer-group;
     background-position: center;
     background-size: 100%;
