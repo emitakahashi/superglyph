@@ -881,7 +881,7 @@ padding-top: 50%;
   background:url('images/img13d.jpeg') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150%;
+  background-size: 130%;
   padding-top: 50%;
   }
 
@@ -1218,7 +1218,7 @@ word-wrap: break-word;
 -------------------------------------------------- */
 
 
-  .img1, .gif1, .img2, .gif2, .img3, .gif3, .img4, .gif4, .img5, .gif5, .img6, .gif6, .img7, .gif7, .img8, .gif8, .img9, .gif9, .img10, .gif10, .img11, .gif11, .img12, .gif12, .img13, .gif13, .img13d, .gif713d, .img14, .gif14, .img15, .gif15, .img16, .gif16, .img17, .gif17, .img18, .gif18 {
+  .img1, .gif1, .img2, .gif2, .img3, .gif3, .img4, .gif4, .img5, .gif5, .img6, .gif6, .img7, .gif7, .img8, .gif8, .img9, .gif9, .img10, .gif10, .img11, .gif11, .img12, .gif12, .img13, .gif13, .img13d, .gif13d, .img14, .gif14, .img15, .gif15, .img16, .gif16, .img17, .gif17, .img18, .gif18 {
     display: table-footer-group;
     background-position: center;
     background-size: cover;
