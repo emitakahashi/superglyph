@@ -168,6 +168,21 @@ word-wrap: break-word;
 }
 
 
+.column button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid white;
+    font-family: "Necto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    padding: 2px 5px 2px 5px;
+    color: black;
+    background-color: GreenYellow;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+}
+
 
 
 .g button {
@@ -186,6 +201,12 @@ word-wrap: break-word;
     box-shadow: 0 0 8px 3px  white;
 }
 
+
+hr {
+  display: overlay;
+  margin-right: auto;
+  border-width: 1px solid black;
+}
 
 
 /* SPACES
@@ -538,10 +559,10 @@ word-wrap: break-word;
 .img1 {
   width: 50%;
   float: left;
-  background:url('images/tendril.JPG') ;
+  background:url('images/img1.png') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 101%;
 padding-top: 50%;
   }
 
@@ -550,7 +571,7 @@ padding-top: 50%;
   color:white;
   width: 50%;
   float: left;
-  background:url('images/tendril_motion.gif') ;
+  background:url('images/img1.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -565,11 +586,11 @@ padding-top: 50%;
 .img2 {
   width: 50%;
   float: left;
-  background-color: GreenYellow;
+  background:url('images/img2.png') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150%;
-  padding-top: 50%;
+  background-size: 155%;
+padding-top: 50%;
   }
 
 
@@ -577,10 +598,10 @@ padding-top: 50%;
   color:white;
   width: 50%;
   float: left;
-  background:url('');
+  background:url('images/img2.gif') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 90%;
   padding-top: 50%;
   }
 
@@ -593,10 +614,10 @@ padding-top: 50%;
 .img3 {
   width: 50%;
   float: left;
-  background-color: GreenYellow;
+   background:url('images/img3.jpeg') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150%;
+  background-size: 120%;
   padding-top: 50%;
   }
 
@@ -605,10 +626,10 @@ padding-top: 50%;
   color:white;
   width: 50%;
   float: left;
-  background:url('') ;
+  background:url('images/img3_1.png') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 70%;
   padding-top: 50%;
   }
 
@@ -620,10 +641,10 @@ padding-top: 50%;
 .img4 {
   width: 50%;
   float: left;
-  background-color: GreenYellow;
+  background:url('images/img4.jpeg') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150%;
+  background-size: 100%;
   padding-top: 50%;
   }
 
@@ -632,7 +653,7 @@ padding-top: 50%;
   color:white;
   width: 50%;
   float: left;
-  background:url('') ;
+  background:url('images/img4.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -640,31 +661,6 @@ padding-top: 50%;
   }
 
 
-
-/* PARTICIPANT 5
-              --------------------------------------------------*/
-
-.img5 {
-  width: 50%;
-  float: left;
-  background-color: GreenYellow;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 150%;
-  padding-top: 50%;
-  }
-
-
-.gif5 {
-  color:white;
-  width: 50%;
-  float: left;
-  background:url('') ;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  padding-top: 50%;
-  }
 
 
 /* PARTICIPANT 6
@@ -673,10 +669,10 @@ padding-top: 50%;
 .img6 {
   width: 50%;
   float: left;
-  background-color: GreenYellow;
+  background:url('images/img6.jpeg') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150%;
+  background-size: 110%;
   padding-top: 50%;
   }
 
@@ -685,7 +681,7 @@ padding-top: 50%;
   color:white;
   width: 50%;
   float: left;
-  background:url('') ;
+  background:url('images/img6.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -699,10 +695,10 @@ padding-top: 50%;
 .img7 {
   width: 50%;
   float: left;
-  background-color: GreenYellow;
+  background:url('images/tendril.JPG') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150%;
+  background-size: 110%;
   padding-top: 50%;
   }
 
@@ -711,7 +707,7 @@ padding-top: 50%;
   color:white;
   width: 50%;
   float: left;
-  background:url('') ;
+  background:url('images/tendril_motion.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -725,10 +721,10 @@ padding-top: 50%;
 .img8 {
   width: 50%;
   float: left;
-  background-color: GreenYellow;
+  background:url('images/img8.png') ;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150%;
+  background-size: 100%;
   padding-top: 50%;
   }
 
@@ -737,7 +733,274 @@ padding-top: 50%;
   color:white;
   width: 50%;
   float: left;
-  background:url('') ;
+  background:url('images/img8.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+/* PARTICIPANT 9
+              --------------------------------------------------*/
+
+.img9 {
+  width: 50%;
+  float: left;
+  background:url('images/img9.png') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 180%;
+  padding-top: 50%;
+  }
+
+
+.gif9 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img9.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110%;
+  padding-top: 50%;
+  }
+
+
+  /* PARTICIPANT 10
+              --------------------------------------------------*/
+
+.img10 {
+  width: 50%;
+  float: left;
+  background:url('images/img10.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: 70% 75%;
+  background-size: 180%;
+  padding-top: 50%;
+  }
+
+
+.gif10 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img10.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+  /* PARTICIPANT 11
+              --------------------------------------------------*/
+
+.img11 {
+  width: 50%;
+  float: left;
+  background:url('images/img11.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  padding-top: 50%;
+  }
+
+
+.gif11 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img11.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  padding-top: 50%;
+  }
+
+
+  /* PARTICIPANT 12
+              --------------------------------------------------*/
+
+.img12 {
+  width: 50%;
+  float: left;
+  background:url('images/img12.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+.gif12 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img12.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  padding-top: 50%;
+  }
+
+
+
+  /* PARTICIPANT 13
+              --------------------------------------------------*/
+
+.img13 {
+  width: 50%;
+  float: left;
+  background:url('images/img13.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif13 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img13.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110%;
+  padding-top: 50%;
+  }
+
+
+
+  /* PARTICIPANT 13.5
+              --------------------------------------------------*/
+
+.img13d {
+  width: 50%;
+  float: left;
+  background:url('images/img13d.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  padding-top: 50%;
+  }
+
+
+.gif13d {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img13d.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110%;
+  padding-top: 50%;
+  }
+
+
+  /* PARTICIPANT 14
+              --------------------------------------------------*/
+
+.img14 {
+  width: 50%;
+  float: left;
+  background:url('images/img14.png') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+  padding-top: 50%;
+  }
+
+
+.gif14 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img14.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110%;
+  padding-top: 50%;
+  }
+
+
+
+
+  /* PARTICIPANT 15
+              --------------------------------------------------*/
+
+.img15 {
+  width: 50%;
+  float: left;
+  background:url('images/img15.png') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 170%;
+  padding-top: 50%;
+  }
+
+.gif15 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img15.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+
+  /* PARTICIPANT 16
+              --------------------------------------------------*/
+
+.img16 {
+  width: 50%;
+  float: left;
+  background:url('images/img16.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160%;
+  padding-top: 50%;
+  }
+
+
+.gif16 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img16.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding-top: 50%;
+  }
+
+
+
+
+
+
+  /* PARTICIPANT 17
+              --------------------------------------------------*/
+
+.img17 {
+  width: 50%;
+  float: left;
+  background:url('images/img17.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  padding-top: 50%;
+  }
+
+
+.gif17 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img17.gif') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -747,9 +1010,30 @@ padding-top: 50%;
 
 
 
+  /* PARTICIPANT 18
+              --------------------------------------------------*/
+
+.img18 {
+  width: 50%;
+  float: left;
+  background:url('images/img182.jpeg') ;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 110%;
+  padding-top: 50%;
+  }
 
 
-
+.gif18 {
+  color:white;
+  width: 50%;
+  float: left;
+  background:url('images/img18.gif') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding-top: 50%;
+  }
 
 
 
@@ -899,15 +1183,20 @@ blockquote {
 }
 
 
+.textbox{
+text-align: center;
+overflow-wrap: break-word;
+word-wrap: break-word;
+}
   
 .column {
   width: 100%;
-  float: left;
+  float: center;
   }
 
 .column2 {
     width: 100%;
-    float: left;
+    float: center;
   }
 
 .left, .right
@@ -929,11 +1218,12 @@ blockquote {
 -------------------------------------------------- */
 
 
-  .img1, .gif1, .img2, .gif2, .img3, .gif3, .img4, .gif4, .img5, .gif5, .img6, .gif6, .img7, .gif7 {
+  .img1, .gif1, .img2, .gif2, .img3, .gif3, .img4, .gif4, .img5, .gif5, .img6, .gif6, .img7, .gif7, .img8, .gif8, .img9, .gif9, .img10, .gif10, .img11, .gif11, .img12, .gif12, .img13, .gif13, .img13d, .gif713d, .img14, .gif14, .img15, .gif15, .img16, .gif16, .img17, .gif17, .img18, .gif18 {
     display: table-footer-group;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
+    height:100%;
     padding-top: 100%;
 
   }
