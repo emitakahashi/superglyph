@@ -990,7 +990,7 @@ padding-top: 50%;
   float: left;
   background:url('images/img17.jpeg') ;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: 100%;
   padding-top: 50%;
   }
@@ -1018,8 +1018,8 @@ padding-top: 50%;
   float: left;
   background:url('images/img182.jpeg') ;
   background-repeat: no-repeat;
-  background-position: top;
-  background-size: 110%;
+  background-position: center;
+  background-size: 100%;
   padding-top: 50%;
   }
 
@@ -1207,7 +1207,7 @@ word-wrap: break-word;
 
 
  #weight-slider {
-  -webkit-appearance: none;
+  -webkit-appearance: none; 
   width: 40vw;
 }
 
